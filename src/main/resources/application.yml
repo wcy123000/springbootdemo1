@@ -1,0 +1,18 @@
+spring:
+  application:
+    name:spring-boot-demo
+  banner:
+    image:
+      location: banner.txt
+      server:
+        port:80
+      servlet:
+        context-path:/demo/
+      hello:
+        name:zhangsan
+      logging:
+        file:c:/logs/spring-boot-demo.log
+      level:
+        com:
+          demo:
+            springboot:debug
